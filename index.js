@@ -1,5 +1,8 @@
 'use strict';
 
+// Import stylesheets
+import './style.css';
+
 // Listening for clicks on each button
 
 let cart = (JSON.parse(localStorage.getItem('cart')) || []);
